@@ -4,7 +4,7 @@ This repository is a collection of machine learning-based models and strategies 
 
 ## 🧠 Project Overview
 
-
+    
 ### `limit_order_book_regression/`
 This project was developed as part of the [Taramani Quant Research Contest (TQRC)](https://www.kaggle.com/competitions/taramani-quant-research-contest-tqrc/overview).
 
@@ -23,7 +23,10 @@ A separate project focused on creating a single-asset machine learning trading s
 - No hold or neutral positions allowed.
 - Focus on **outperforming a long-only baseline** on out-of-sample data.
 
-Trained ML model using Logistic Regression to predict buy-sell signals.
+**Methodology:**
+- Construct time-series features from historical price and volume.
+- Trained ML model using **Logistic Regression** to predict buy-sell signals.
+- Check out the [Pfizer/report.pdf](./Pfizer/report.pdf) for detailed report and stratey performance.
 ## 🛠 Tools & Libraries
 - Python
 - Scikit-learn
